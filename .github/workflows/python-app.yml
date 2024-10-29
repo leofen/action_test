@@ -35,5 +35,5 @@ jobs:
         echo 'cd insightface/python-package'
         cd insightface/python-package
         echo 'begin build package'
-        pip3 wheel --no-deps -w dist .
+        VERBOSE=1 pip3 wheel --no-deps -w dist .
 
